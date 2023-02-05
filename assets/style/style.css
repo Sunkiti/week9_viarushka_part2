@@ -1,0 +1,91 @@
+@font-face {
+    src: url("/assets/fonts/IntroDemoCond-LightCAPS.otf");
+    /* url("") format("woff"); */
+    font-family: 'Intro'; 
+}
+.ellipse_violet{
+    background-color: #5222D0;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    right: 86.07%;
+    top: 0%;
+    bottom: 30%;
+}
+.ellipse_red{
+    background-color: #EC615B;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10.97%;
+    right: 51.1%;
+    top: 3%;
+    bottom: 0%;
+}
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+.navigation__cart {
+    grid-area: 1/7/2/8;
+}
+.navigation__cart__cart{
+    background: #5222D0;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    height: 38px;
+    width: 115px;
+}
+h2{
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 40%;
+    margin: 100px;
+}
+.card-title {
+    text-transform: uppercase;
+}
+.col-3 {
+    border: none;
+}
+.btn {
+    text-transform: uppercase;
+    background: #5222D0;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+}
+.subscribe { 
+    background-color: #EC615B;
+    padding: 8%;
+    height: 12rem;
+}
+.form-label {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+@media (max-width: 767px){
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+}
